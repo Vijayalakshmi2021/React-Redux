@@ -1,5 +1,6 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+
 import React, {Children, useState} from 'react'
 
 export const UserContext = React.createContext()
@@ -61,7 +62,7 @@ function UserContextComponent({children}) {
       {
           "id": 5,
           "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "description": "Huawei's re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
           "price": 499,
           "discountPercentage": 10.58,
           "rating": 4.09,
