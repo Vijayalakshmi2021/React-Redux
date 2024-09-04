@@ -3,7 +3,7 @@
 import React, { useState, useContext } from 'react';
 import { UserContext } from '../utils/UserContextComponent';
 
-function CartCard() {
+function Cart() {
   let { product, setProduct } = useContext(UserContext);
 
   return (
@@ -106,4 +106,4 @@ function CartCard() {
   );
 }
 
-export default CartCard;
+export default Cart;
